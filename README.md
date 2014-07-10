@@ -1,12 +1,13 @@
-##JSON2Anything
-JSON2Anything(J2A) converts JSON to NSObject's subclass, struts, enum etc.
-
-1. Dynamic control an app's UI  in server-side.
-2. Fix bug in server-side.
-3. Upgrade app in server-side.
-
 ## Introduction
-Here's a simple example:
+JSON2Anything(J2A) is a magical library that converts pure JSON to any Cocoa Objects, Structs, Enums ets.
+With J2A interated in your projects, you can:
+
+1. Dynamic control an app's UI  from your server-side.
+2. Fix bugs from your server-side.
+3. Apply Hot Fix Patches to your app online, and, from your server-side.
+
+## Usage
+Here's a simple example showing the way to load a custom UIView dynamically:
 
 A JSON file named "view.json" in project
 ```JSON
@@ -60,6 +61,7 @@ Call jsonView: in loadView()
         }
     }
 ```
+
 ##System Requirements
 JSON2Anything supports OS X 10.9+ and iOS 7.0+.
 
