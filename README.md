@@ -1,5 +1,6 @@
 ## Introduction
 JSON2Anything(J2A) is a magical library that converts pure JSON to any Cocoa Objects, Structs, Enums ets.
+
 With J2A interated in your projects, you can:
 
 1. Dynamic control an app's UI  from your server-side.
